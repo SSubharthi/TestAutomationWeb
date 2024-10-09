@@ -1,0 +1,15 @@
+{
+  "name": "webautomation",
+  "version": "1.0.0",
+  "main": "nightwatch.conf.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "devDependencies": {
+    "nightwatch": "^3.8.0"
+  }
+}

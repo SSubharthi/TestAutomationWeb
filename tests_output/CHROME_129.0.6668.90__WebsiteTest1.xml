@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<testsuites errors="0"
+            failures="2"
+            tests="1">
+
+  <testsuite name="WebsiteTest1"
+    errors="0" failures="2" hostname="" id="" package="WebsiteTest1" skipped="0"
+    tests="1" time="114.5" timestamp="">
+  
+    <testcase name="Open the URLs and check if they are launching properly" classname="WebsiteTest1" time="56.46" assertions="9">
+
+    
+
+      <failure message="Testing if the URL is &#39;https://ultimateqa.com/fake-pricing-page&#39; in 5000ms - expected &#34;is &#39;https://ultimateqa.com/fake-pricing-page&#39;&#34; but got: &#34;https://ultimateqa.com/automation/fake-pricing-page/&#34; (5093ms)">    at WebsitePage1.checkTheLinksAndValidate (/Users/subharthisamanta/WebAutomation/WebsitePages/page-objects/WebsitePage1.js:36:34)
+    at async DescribeInstance.&lt;anonymous&gt; (/Users/subharthisamanta/WebAutomation/WebsiteTests/WebsiteTest1.js:14:9)</failure>
+
+    
+
+    
+
+      <failure message="Testing if the URL is &#39;http://courses.ultimateqa.com/users/sign_in&#39; in 5000ms - expected &#34;is &#39;http://courses.ultimateqa.com/users/sign_in&#39;&#34; but got: &#34;https://courses.ultimateqa.com/users/sign_in&#34; (5353ms)">    at WebsitePage1.checkTheLinksAndValidate (/Users/subharthisamanta/WebAutomation/WebsitePages/page-objects/WebsitePage1.js:36:34)
+    at async DescribeInstance.&lt;anonymous&gt; (/Users/subharthisamanta/WebAutomation/WebsiteTests/WebsiteTest1.js:14:9)</failure>
+
+    
+
+    
+
+    
+
+    
+    </testcase>
+  
+
+  
+
+    
+
+  
+  </testsuite>
+</testsuites>
